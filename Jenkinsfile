@@ -7,11 +7,5 @@ pipeline {
       }
     }
 
-    stage('error') {
-      steps {
-        pwd()
-      }
-    }
-
   }
 }
