@@ -6,12 +6,5 @@ pipeline {
         echo 'Hello. World!'
       }
     }
-
-    stage('') {
-      steps {
-        pwd(tmp: true)
-      }
-    }
-
   }
 }
