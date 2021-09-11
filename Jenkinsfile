@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        pwd(tmp: true)
+      }
+    }
+
   }
 }
